@@ -11,7 +11,7 @@
 
 
     <meta name="description" content="run(reloader=True, debug=True) You can just say run(), and it will begin using a set of defaults, but we have customised the server slightly. The reloader flag tells the server to restart every time we change a code file, which saves us from turning it off and on again every time we modify our code. Very handy for development! The debug flag does a something thing for templates.
-Bonus for the eager    There are a lot of other flags you can use, but two that you might find handy are:">
+There are a lot of other flags you can use, but two that you might find handy are:">
 
 
 
@@ -25,7 +25,7 @@ Bonus for the eager    There are a lot of other flags you can use, but two that 
 
     <meta property="og:title" content="bottle.run()" />
 <meta property="og:description" content="run(reloader=True, debug=True) You can just say run(), and it will begin using a set of defaults, but we have customised the server slightly. The reloader flag tells the server to restart every time we change a code file, which saves us from turning it off and on again every time we modify our code. Very handy for development! The debug flag does a something thing for templates.
-Bonus for the eager    There are a lot of other flags you can use, but two that you might find handy are:" />
+There are a lot of other flags you can use, but two that you might find handy are:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tmcdigitech.github.io/dit10a/glossary/bottleRun/" /><meta property="article:section" content="glossary" />
 
@@ -35,7 +35,7 @@ Bonus for the eager    There are a lot of other flags you can use, but two that 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="bottle.run()"/>
 <meta name="twitter:description" content="run(reloader=True, debug=True) You can just say run(), and it will begin using a set of defaults, but we have customised the server slightly. The reloader flag tells the server to restart every time we change a code file, which saves us from turning it off and on again every time we modify our code. Very handy for development! The debug flag does a something thing for templates.
-Bonus for the eager    There are a lot of other flags you can use, but two that you might find handy are:"/>
+There are a lot of other flags you can use, but two that you might find handy are:"/>
 
 
     <script src="/dit10a/js/darkmode-ce906ea916.min.js"></script>
@@ -69,7 +69,7 @@ Bonus for the eager    There are a lot of other flags you can use, but two that 
     "name": "bottle.run()",
     "headline": "bottle.run()",
     "alternativeHeadline": "",
-    "description": "run(reloader=True, debug=True) You can just say run(), and it will begin using a set of defaults, but we have customised the server slightly. The reloader flag tells the server to restart every time we change a code file, which saves us from turning it off and on again every time we modify our code. Very handy for development! The debug flag does a something thing for templates.\nBonus for the eager    There are a lot of other flags you can use, but two that you might find handy are:",
+    "description": "run(reloader=True, debug=True) You can just say run(), and it will begin using a set of defaults, but we have customised the server slightly. The reloader flag tells the server to restart every time we change a code file, which saves us from turning it off and on again every time we modify our code. Very handy for development! The debug flag does a something thing for templates.\nThere are a lot of other flags you can use, but two that you might find handy are:",
     "inLanguage": "en",
     "isFamilyFriendly": "true",
     "mainEntityOfPage": {
@@ -93,7 +93,7 @@ Bonus for the eager    There are a lot of other flags you can use, but two that 
         }
     },
     "url" : "https:\/\/tmcdigitech.github.io\/dit10a\/glossary\/bottleRun\/",
-    "wordCount" : "99",
+    "wordCount" : "215",
     "genre" : [ ]
 }
 </script>
@@ -415,17 +415,13 @@ Bonus for the eager    There are a lot of other flags you can use, but two that 
         <h1>bottle.run()</h1>
         <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">run</span><span class="p">(</span><span class="n">reloader</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></code></pre></div>
 <p>You can just say <code>run()</code>, and it will begin using a set of defaults, but we have customised the server slightly. The <code>reloader</code> flag tells the server to restart every time we change a code file, which saves us from turning it off and on again every time we modify our code. Very handy for development! The <code>debug</code> flag does a something thing for templates.</p>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="bonus-for-the-eager">
-        Bonus for the eager
-        <a data-clipboard-text="https://tmcdigitech.github.io/dit10a/glossary/bottleRun/#bonus-for-the-eager" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Bonus for the eager" href="#bonus-for-the-eager">
-            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div><p>There are a lot of other flags you can use, but two that you might find handy are:</p>
-<ul>
-<li><code>host=&quot;localhost&quot;</code>, which sets which addresses the server will listen on</li>
-</ul>
+<p>There are a lot of other flags you can use, but two that you might find handy are:</p>
+<dl>
+<dt><code>host=&quot;localhost&quot;</code></dt>
+<dd>Sets which addresses the server will listen on. Localhost is a magic name that refers to your local machine. By hosting on localhost, only your local machine can access your server, which is ideal for personal things and anything you&rsquo;re developing, which might have bugs or potential weaknesses to exploit. You can choose one of your computer&rsquo;s current IP addresses with, e.g. <code>host=&quot;192.168.1.203&quot;</code>, and now your computer will be visible to other devices connected to that local network. Finally, you can also choose to listen on all available addresses by using <code>host=&quot;0.0.0.0&quot;</code>.</dd>
+<dt><code>port=&quot;8080&quot;</code></dt>
+<dd>Sets which port the server will listen on. You will need administrator access to use a port number below 1024. The default port for HTTP traffic is port 80, and common alternatives are 8080 and 8000.</dd>
+</dl>
 
     </article>
 
