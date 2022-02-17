@@ -1,12 +1,10 @@
 ---
 title: Strings
-draft: true
 ---
 Let us see the different operations that can be performed on the below string.
 ```python
 >>> word = 'Sample'
->>> len(word)
-6
+>>> len(word) # 6
 ```
 
 
@@ -21,9 +19,8 @@ Let us see the different operations that can be performed on the below string.
 ### 1 Concatenation
 Join a string with another string
 ```python
->>> word = 'Sample'
->>> word + ' ' + 'trick'
-'Sample trick'
+word = 'Sample'
+word + ' ' + 'trick' # 'Sample trick'
 ```
 
 ### 2 Indexed Access of Strings
@@ -31,26 +28,20 @@ A string in a python can be indexed to perform operations on the string.
 
 Positive single character
 ```python
-word = 'Sample'
-word[3]
-Output
-p
+>>> word = 'Sample'
+word[3] # 'p'
 ```
 
 Negative single character
 ```python
 word = 'Sample'
-word[-2]
-Output
-l
+word[-2] # 'l'
 ```
 
 String Reverse
 ```python
 word = 'Sample'
-word[::-1]
-Output
-'elpmaS'
+word[::-1] # 'elpmaS'
 ```
 
 Reverse string by iterating through string contents.
@@ -58,7 +49,8 @@ Reverse string by iterating through string contents.
 word = 'Sample'
 for char in reversed(word):    
     print(char)
-Output
+
+# Output:
 e
 l
 p
@@ -72,57 +64,39 @@ Slicing allows us to access a substring of characters from a word.
 ```python
 Example 1
 word = 'Sample'
-word[0:3] 
-Output
-Sam
+word[0:3] # 'Sam'
 ```
-
+---
 ```python
 Example 2
 word = 'Sample'
-word[4:5] 
-Output
-le
+word[4:5] # 'le'
 ```
-
+---
 ```python
 Example 3
 word = 'Sample'
-word[:5] 
-Output
-Sampl
+word[:5] # 'Sampl'
 ```
 
 ### 4 Remove leading and trailing characters
 To remove space before and after a string the strip() method can be used has shown below
 ```python
-'   Sample   '.strip()
-Output
-Sample
-'sample'.strip('ple')
-Output
-Sam
+'   Sample   '.strip() # 'Sample'
+'sample'.strip('ple') # 'sam'
 ```
 
 ### 5 Left fill with ASCII ‘0’
 To left fill with ASCII ‘0’’, we can use zfill() method to make a length of required string width.
 ```python
-"10".zfill(6)
-Output
-000010
-"-10".zfill(6)
-Output
--00010
+"10".zfill(6) # '000010'
+"-10".zfill(6) # '-00010'
 ```
 ### 6 Find Substring
 The find() method can be used to extract a substring from a string
 ```python
-'sample'.find('am',0,5)
-Output
-1
-'sam' in 'sample'
-Output
-True
+'sample'.find('am',0,5) # '1'
+'sam' in 'sample' # True
 ```
 
 ### 7 Find if the string contains Numbers
