@@ -1,6 +1,8 @@
 ---
 title: Strings
 ---
+*adapted from [Medium.com](https://medium.com/analytics-vidhya/interesting-cool-python-tricks-for-working-with-strings-d37fcf8842b2)*
+
 Let us see the different operations that can be performed on the below string.
 ```python
 word = 'Sample'
