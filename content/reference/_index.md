@@ -18,10 +18,6 @@ The official Bottle tutorial
 A series of YouTube videos on various aspects of Bottle. Some are quite short, a couple are very long:
 - [Bottle Tutorials](https://www.youtube.com/watch?v=g_9nsFJS_pk&list=PLXmMXHVSvS-AyIwEYkGNa4WE1AR1_45mv)
 
-
-### SQLite
-[SQLite Tutorial](https://www.sqlitetutorial.net/)
-
 ## Documentation
 
 ### Python
@@ -29,13 +25,3 @@ A series of YouTube videos on various aspects of Bottle. Some are quite short, a
 
 ### Bottle
 - [Bottle: Python Web Framework](https://bottlepy.org/docs/dev/)
-
-### SQLite
-SQLite official documentation (probably too dense and technical to be much use)
-- [SQLite Documentation](https://www.sqlite.org/docs.html)
-
-Using SQLite from Python
-- [Sqlite3 module](https://docs.python.org/3/library/sqlite3.html)
-
-Using SQLite in Bottle
-- [Bottle-SQLite](https://bottlepy.org/docs/0.12/plugins/sqlite.html)
