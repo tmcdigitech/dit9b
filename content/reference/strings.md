@@ -3,12 +3,11 @@ title: Strings
 ---
 Let us see the different operations that can be performed on the below string.
 ```python
->>> word = 'Sample'
->>> len(word)
+word = 'Sample'
+len(word)
 # 6
 ```
-
-
+---
 ```python
  +---+---+---+---+---+---+
  | S | a | m | p | l | e |
@@ -30,7 +29,7 @@ A string in a python can be indexed to perform operations on the string.
 
 Positive single character
 ```python
->>> word = 'Sample'
+word = 'Sample'
 word[3]
 # 'p'
 ```
@@ -55,7 +54,7 @@ word = 'Sample'
 for char in reversed(word):    
     print(char)
 
-###  Output:
+### Output ###
 e
 l
 p
@@ -271,7 +270,7 @@ Name = ['Tom', 'Marry', 'Jon']
 Age = ['35', '30', '40']
 for Name, Age in zip(Name,Age):
     print(Name,Age)
-###  Output
+###  Output ###
 Tom 35
 Marry 30
 Jon 40
