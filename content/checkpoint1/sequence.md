@@ -4,6 +4,10 @@ weight: 1
 ---
 *from [The Computing Zone](https://thecomputing.zone/Python/15-Challenges/)*
 
+{{< hint warning >}}
+[Check here]({{< ref "/checkpoint1/" >}}) to see how to hand-in these checkpoint tasks.
+{{< /hint >}}
+
 {{< columns >}}
 ## 1. Three in, three out
 Write a program that will allow a user to enter their name (string), their age (integer) and their favourite TV program (string). The program will then display the information entered and some additional text on separate lines. An example of the input and output from the program is shown below.

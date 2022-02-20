@@ -4,6 +4,10 @@ weight: 2
 ---
 *from [The Computing Zone](https://thecomputing.zone/Python/15-Challenges/)*
 
+{{< hint warning >}}
+[Check here]({{< ref "/checkpoint1/" >}}) to see how to hand-in these checkpoint tasks.
+{{< /hint >}}
+
 {{< columns >}}
 ## 9. Advice please
 Write a program that asks the user if they would like some advice. If they enter Y, provide them with an amusing message.

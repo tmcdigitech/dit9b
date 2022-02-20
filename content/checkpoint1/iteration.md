@@ -4,6 +4,10 @@ weight: 3
 ---
 *from [The Computing Zone](https://thecomputing.zone/Python/15-Challenges/)*
 
+{{< hint warning >}}
+[Check here]({{< ref "/checkpoint1/" >}}) to see how to hand-in these checkpoint tasks.
+{{< /hint >}}
+
 {{< columns >}}
 ## 13. Lines cheat
 A naughty pupil has been given lines to copy as a punishment from their Computing teacher. The have been asked to type out “I must not behave like muppet in class” 20 times. Write a program that asks a pupil to enter a sentence. The same sentence should then be displayed 20 times. 
