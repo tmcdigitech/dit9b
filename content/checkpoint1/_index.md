@@ -3,8 +3,9 @@ title: Task 1 - Python Checkpoints
 weight: 2
 ---
 
-{{< note info >}}
+{{< hint info >}}
 [Hand in your files here](http://10.124.229.70:8080/).
+{{< /hint >}}
 
 You will need to save each of the tasks in this set in its own file, with a simple naming system:
 - **1. Three in, three out** should be in a file named `1.py`,
