@@ -26,3 +26,7 @@ A series of YouTube videos on various aspects of Bottle. Some are quite short, a
 
 ### Bottle
 - [Bottle: Python Web Framework](https://bottlepy.org/docs/dev/)
+
+## Random
+
+- [Zetcode bottle guide](https://zetcode.com/python/bottle/)
