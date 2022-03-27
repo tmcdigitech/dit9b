@@ -1,5 +1,5 @@
 ---
-title: Full HTML Example
+title: 04 Templates
 weight: 3
 ---
 

@@ -4,8 +4,43 @@ weight: 1
 ---
 *from [The Computing Zone](https://thecomputing.zone/Python/15-Challenges/)*
 
-{{< hint warning >}}
-[Check here]({{< ref "/checkpoint1/" >}}) to see how to hand-in these checkpoint tasks.
+{{< hint info >}}
+## To be successful
+Follow this link to [hand in your files](http://10.124.229.70:8080/).
+
+You will need to save each of the tasks in this set in its own file, with a simple naming system:
+- **1. Three in, three out** should be in a file named `ex1.py`,
+- **2. Name swapper** should be in a file named `ex2.py`
+
+and so on.
+
+You will be submitting these files to a system which will mark them automatically.
+Since they'll be marked by a computer, and computers are terminally stupid, you
+will need to make sure that your files are labelled correctly, or the computer
+will assume you haven't done that particular exercise. You will also need to
+make sure your output exactly matches the examples, down to capitalisation,
+spelling, line breaks and spaces.
+
+You need to make sure each of your exercises uses this code layout. Replace
+the included example (which is exercise 2) with your code.
+
+```python
+def ex(input,print):
+    # your program goes below here
+    # vvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+    print("What is your first name?")
+    fname = input("> ")
+    print("What is your surname?")
+    sname = input("> ")
+    print(f"{sname} {fname}")
+
+    # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    # your program goes above here
+
+if __name__ == "__main__":
+    ex(input,print)
+```
 {{< /hint >}}
 
 {{< columns >}}

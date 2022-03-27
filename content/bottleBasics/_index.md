@@ -1,4 +1,4 @@
 ---
 title: Bottle basics
-weight: 3
+weight: 5
 ---
