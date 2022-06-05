@@ -3,9 +3,9 @@ title: RELIEF LESSON
 weight: -100
 ---
 
-*Thursday Week 3 (19-May-2022)*
+*Thursday Week 5 (2-June-2022)*
 
-I have made a [slideshow version of the Drawing Graphics page]({{< ref "gameDesign/02basics/graphicsSlides.md" >}}), which you may find easier to follow. Read the text, follow the instructions, and attempt the exercises. Make sure you save them all as separate files. Some of you will have already done this, and you can get working on making [interactive things]({{< ref "gameDesign/02basics/arcade" >}}) (or **games**, as we call them).
+In preparation for making your own game, today you should work through [this set](https://web.microsoftstream.com/channel/5fe69927-10b8-450b-ad7f-7d01ce76d20c) of short videos which will make a simple game from scratch. Your game may adapt and extend this one, or it might be very different, but there will almost certainly be things of use to you.
 
 {{< hint danger >}}
 **You can use `Mu Editor` or `Visual Studio Code`.** If using Visual Studio Code, you need to start each program with:
