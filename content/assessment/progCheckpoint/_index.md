@@ -8,7 +8,7 @@ title: "1: Programming Checkpoints"
 
 You will need to save each of the tasks in this set in its own file, with a simple naming system:
 - **1. Three in, three out** should be in a file named `ex1.cs`,
-- **2. Name swapper** should be in a file named `ex2.pcs`
+- **2. Name swapper** should be in a file named `ex2.cs`
 
 and so on.
 
