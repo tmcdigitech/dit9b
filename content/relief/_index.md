@@ -14,17 +14,17 @@ To help you with the structure and specifics of C#, here is the complete code fo
 
 ```c#
 using System;
-					
+
 public class Program
 {
-	public static void Main()
-	{
-		Console.WriteLine("What is your first name?");
-		string firstname = Console.ReadLine();
-		Console.WriteLine("What is your surname?");
-		string surname = Console.ReadLine();
-		Console.WriteLine(surname+" "+firstname);
-	}
+    public static void Main()
+    {
+        Console.WriteLine("What is your first name?");
+        string firstname = Console.ReadLine();
+        Console.WriteLine("What is your surname?");
+        string surname = Console.ReadLine();
+        Console.WriteLine(surname+" "+firstname);
+    }
 }
 ```
 
@@ -36,15 +36,15 @@ A couple of useful notes:
 - If you need to convert a string into an integer, which has the type `int`, you can use the function `int.Parse("32")`, where you replace the string `"32"` with the variable you want to interpret as a number. For example, this code will read in a number from the console and print out double that number:
 ```c#
 using System;
-					
+
 public class Program
 {
-	public static void Main()
-	{
-		Console.WriteLine("What is your favourite whole number?");
-		int number = int.Parse(Console.ReadLine());
+    public static void Main()
+    {
+        Console.WriteLine("What is your favourite whole number?");
+        int number = int.Parse(Console.ReadLine());
         number = number*2;
-		Console.WriteLine("Double that number is "+number+".");
-	}
+        Console.WriteLine("Double that number is "+number+".");
+    }
 }
 ```
