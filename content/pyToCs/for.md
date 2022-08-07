@@ -2,6 +2,8 @@
 title: for loops
 weight: 50
 ---
+{{< youtube h4hY2hho73Q >}}
+[Link to view video at TMC](https://web.microsoftstream.com/video/b049f06e-5f10-436b-abbd-e1cc67342803)
 
 ## Python
 In Python, the range() function is commonly used to make a loop that counts through some number:

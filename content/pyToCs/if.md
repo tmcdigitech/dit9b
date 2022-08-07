@@ -2,6 +2,8 @@
 title: if statements
 weight: 30
 ---
+{{< youtube pSPQnXleaS8 >}}
+[Link to view video at TMC](https://web.microsoftstream.com/video/bc67eac6-613c-4625-81e1-00e923d359bb)
 
 ## Basic if
 ### Python
