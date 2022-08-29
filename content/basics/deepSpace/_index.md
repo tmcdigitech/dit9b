@@ -5,4 +5,4 @@ weight: 10
 
 [Explosion 1](AsteroidExplosion.prefab)
 
-[Explosion 2](Spaces
+[Explosion 2](SpaceshipExplosion.prefab)
