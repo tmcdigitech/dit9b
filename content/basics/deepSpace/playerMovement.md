@@ -19,14 +19,14 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         //Update rotation
-        rb.MoveRotation(rb.rotation - Input.GetAxis("Horizontal") * rotSpeed * Time.fixedDeltaTime);
+        rb.MoveRotation(rb.rotation - Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime);
 
         //Update velocity
         Vector3 pos = transform.position;
-        float y = Input.GetAxis("Vertical") * linSpeed * Time.fixedDeltaTime;
+        float y = Input.GetAxis("Vertical") * linSpeed * Time.deltaTime;
 
         Vector2 vChange = new Vector2(0, y);
         vChange = transform.rotation * vChange;
@@ -55,4 +55,4 @@ public class Player : MonoBehaviour
         transform.position = new Vector2(newPos.x, newPos.y);
     }
 }
-```
+{{< /highlight >}}
