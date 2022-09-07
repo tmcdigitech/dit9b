@@ -1,6 +1,29 @@
 ---
 title: Player Movement
+weight: 20
 ---
+As this is a top-down, space game, we want the x-axis of the player's controls
+to rotate the ship, and the y-axis to control the thrusters forward and back.
+
+You might want to limit the controls so the player cannot move backwards, 
+meaning they have to turn the ship around to move forwards. We won't worry
+about that here.
+
+We set up a script and attach it to the player ship. The complete code is below,
+with the added lines highlighted.
+
+Lines 7-9 set up some variables:
+- `rotSpeed` (rotation speed) affects how quickly we can turn, while
+- `linSpeed` (linear speed) affects how quickly we can accelerate. 
+- `rb` is a Rigidbody2D component.
+
+On line 13, we set `rb` to the attached Rigidbody2D component. As this
+script is attached to the player object, it will be the player's Rigidbody2D component.
+
+Inside the `update()` function, there are three separate chunks of code:
+- line 20 modifies the rotation of the ship according to the controller's x-axis (L+R arrows, W+D keys, left stick on Xbox or PS controller);
+- line 23-28 changes the velocity by creating a vector facing up (nominally forwards) scaled to the controller's y-axis, and then rotating it to match the player's current direction;
+- line 31-50 handles wrapping the screen so when the player flies off one edge of the screen they re-emerge on the opposite side.
 
 {{< highlight cs "linenos=table,hl_lines=7-9 13 19-50" >}}
 using System.Collections;
