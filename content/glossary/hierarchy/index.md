@@ -1,5 +1,5 @@
 ---
-title: object hierarchy
+title: Hierarchy
 ---
 
 ![](hierarchy.png)

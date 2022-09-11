@@ -70,7 +70,7 @@ public class Rock : MonoBehaviour
                 as GameObject;
             
             if( debrisTemplate != null){ // "!=" = "!" + "="
-                float angle = Random.Range(0f, 360f);
+                float angle = Random.Range(30f, 150f);
                 float speed = Random.Range(5f, 10f);
                 Vector3 s = new Vector3(0, speed, 0);
 

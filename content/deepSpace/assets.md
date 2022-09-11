@@ -1,6 +1,6 @@
 ---
 title: Assets
-weight: 10
+weight: 100
 ---
 
 Alt-click to download:
