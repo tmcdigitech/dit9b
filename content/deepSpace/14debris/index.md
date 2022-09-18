@@ -12,7 +12,7 @@ For now, just to check that things are working, once you've got the code in and 
 If you want some more fun here, you can try setting the debris object to a playerBlast, or make a prefab out of your player, and use that as the debris! Crazy, but the stuff of inspiration...
 {{< /hint >}}
 
-{{< highlight cs "linenos=table,hl_lines=7 55-74" >}}
+{{< highlight cs "linenos=table,hl_lines=7-8 23 57-59 62-81" >}}
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +20,7 @@ using UnityEngine;
 public class Asteroid : MonoBehaviour
 {
     public GameObject debrisTemplate;
+    private float initializationTime;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,8 @@ public class Asteroid : MonoBehaviour
         float speed = Random.Range(0.5f, 2f);
         Vector3 s = new Vector3(0, speed, 0);
         rb.velocity = transform.rotation * s;
+
+        initializationTime = Time.timeSinceLevelLoad;
     }
 
     // Update is called once per frame
@@ -66,6 +69,10 @@ public class Asteroid : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if( Time.timeSinceLevelLoad - initializationTime < 0.5 ){
+            return;
+        }
+
         if( other.gameObject.CompareTag("LaserBlast") ){
             if( debrisTemplate != null){ // "!=" = "!" + "="
                 float angle = Random.Range(0f, 180f);
