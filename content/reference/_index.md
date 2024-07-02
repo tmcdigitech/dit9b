@@ -3,30 +3,37 @@ title: Reference
 weight: 800
 ---
 
-## Tutorials
+## Guides/Tutorials
 
-### Python
-If you are new to Python, or need a quick refresher, here is a good interactive guide you can use:
-- [Aposteriori: Introduction to Python](https://aposteriori.trinket.io/introduction-to-python)
+### C sharp (C#)
+W3 Schools is always an excellent reference.
+- [W3 Schools](https://www.w3schools.com/cs/index.php)
 
-The "official" Python tutorial, which is bigger, longer, and more thorough:
-- [The Python Tutorial](https://docs.python.org/3.9/tutorial/index.html)
+Microsoft offer an interactive introduction to C#:
+- [Introduction to C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/)
 
-### Bottle
-The official Bottle tutorial
-- [Bottle Tutorial](https://bottlepy.org/docs/dev/tutorial.html)
+and also a more involved training program:
+- [MS C# Training](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/)
 
-A series of YouTube videos on various aspects of Bottle. Some are quite short, a couple are very long:
-- [Bottle Tutorials](https://www.youtube.com/watch?v=g_9nsFJS_pk&list=PLXmMXHVSvS-AyIwEYkGNa4WE1AR1_45mv)
+## Quick-references/cheat-sheets
+
+### C sharp (C#)
+- [QuickRef.me](https://quickref.me/cs.html)
+
+- [Labinator Solutions](https://github.com/LabinatorSolutions/csharp-cheat-sheet)
+
+- [hackr.io](https://hackr.io/blog/c-sharp-cheat-sheet)
+
+### Unity
+
+- [Ozankasikci (Github)](https://github.com/ozankasikci/unity-cheat-sheet)
+
+- [Zero to Mastery](https://zerotomastery.io/cheatsheets/unity-cheat-sheet/)
 
 ## Documentation
 
-### Python
-- [Python Standard Library (ver 3.9)](https://docs.python.org/3.9/library/index.html)
+### C sharp (C#)
+- [C# language reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
 
-### Bottle
-- [Bottle: Python Web Framework](https://bottlepy.org/docs/dev/)
-
-## Random
-
-- [Zetcode bottle guide](https://zetcode.com/python/bottle/)
+### Unity
+- [Unity Documentation](https://docs.unity3d.com/Manual/index.html)
